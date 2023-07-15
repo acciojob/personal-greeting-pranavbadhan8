@@ -7,7 +7,7 @@ function Input(){
    let [name,setName] = useState("");
 
     const inputName = (event)=>{
-        setName(event.target.value)
+        setName("Hello "+ event.target.value+"!")
     }
 
    return(
@@ -15,7 +15,7 @@ function Input(){
 
     <p>Enter your name:</p>  
     <input type="text" className="name" onChange={inputName}/>
-    <p>Hello {name}!</p>
+    <p>{name}</p>
     </div>
    )
 }
