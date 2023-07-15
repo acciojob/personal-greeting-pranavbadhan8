@@ -15,7 +15,7 @@ function Input(){
 
     <p>Enter your name:</p>  
     <input type="text" className="name" onChange={inputName}/>
-    <p>{name}</p>
+    <p>Hello {name}!</p>
     </div>
    )
 }
