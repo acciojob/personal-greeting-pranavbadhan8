@@ -12,7 +12,7 @@ function Input(){
    return(
     <div>
 
-    <p>Enter your name: </p> 
+    <label>Enter your name: </label> 
     <input type="text" className="name" onChange={inputName}/>
     <p>{name}</p>
     </div>
