@@ -12,9 +12,9 @@ function Input(){
    return(
     <div>
 
-    <h1>Enter your name: </h1> 
+    <p>Enter your name: </p> 
     <input type="text" className="name" onChange={inputName}/>
-    <h1>{name}</h1>
+    <p>{name}</p>
     </div>
    )
 }
