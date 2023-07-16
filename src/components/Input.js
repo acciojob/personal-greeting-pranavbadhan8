@@ -3,7 +3,7 @@ import { useState } from "react";
 
 function Input(){
 
-   let [name,setName] = useState("");
+   let [name,setName]=useState("");
 
     const inputName = (event)=>{
         setName("Hello "+ event.target.value+"!")
@@ -12,7 +12,7 @@ function Input(){
    return(
     <div>
 
-    <p>Enter your name:</p>  
+    <p>Enter your name: </p> 
     <input type="text" className="name" onChange={inputName}/>
     <p>{name}</p>
     </div>
